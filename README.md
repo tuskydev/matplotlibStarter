@@ -1,53 +1,37 @@
-# DESCRIPTIVE-TITLE Solo Project 
-### A repo made to test Semantic-UI-React's NPM that has a popup modal that display's necessary info.
+# Matplotlib Starter Solo Project 
+### A repo made to test out matplotlib's tools and install the packages needed to learn what it's about.
 
 ### Things learned:
-* Learned how to make functionality for className "active" in navs and tabs
-* Sharpened React JSX and CSS Flexbox skills.
-* Learned how to combine two personal Solo Projects to make one dynamic project!
+* Learned how to update matploblit in live time using Vscode's interactive terminal. 
+* Combine my math knowledge with matplotlib.
+* Sharpened my math skills!
 
-### Overall, a productive project which allowed for better understanding of Pop Up Modals.
+### Overall, a productive project which allowed for better understanding of matplotlib's pylab graphs.
 
 ## Preview of work done:
-### Image of Pop-up-Bar displaying dynamic info and picures
-![image](https://user-images.githubusercontent.com/52723004/93537418-6b6c9c00-f919-11ea-80de-e61a76117757.png)
+### Image of a dynamic graph that moves in real-time
+![image](https://github.com/tuskydev/matplotlibStarter/assets/52723004/a783099a-ef87-4114-81dc-d93f5aad93f5)
 
-### Image of the Pop-up-Bar's integrated and dynamic Carousel 
-![image](https://user-images.githubusercontent.com/52723004/93537444-7d4e3f00-f919-11ea-94d4-43ab6a3205a9.png)
 
-## KEY NOTES: ONLYADDIFYOUNEEDDISCLAIMERS!!!
-* The first Carousel was made with Bootstrap NPM 
-* The second Carousel was made with Alice-Carousel NPM in a `Class` Component 
-* The third Carousel was made with Alice-Carousel NPM in a `Function` Component 
+### Image of a graph integrated with a function analyzing someone's retirement funds based on money put in and the rate at which it will increase 
+![image](https://github.com/tuskydev/matplotlibStarter/assets/52723004/5aa4d5f5-59bb-4264-a0f3-2f105d6c2c35)
+
 
 ## Steps to recreate:
 
 ### In console:
 `
-npm install semantic-ui-react semantic-ui-css
-`
-
-`
-npm i react-alice-carousel
+npm install matplotlib
 `
 
 ### Add these lines to the App.js file:
 ```
-import {
-  Checkbox,
-  Sidebar,
-} from 'semantic-ui-react';
-import AliceCarousel from 'react-alice-carousel';
+import pylab as plt
 
-import 'semantic-ui-css/semantic.min.css';
-import 'react-alice-carousel/lib/alice-carousel.css';
+* the rest is depending on the graph you decide to do 
 ```
 
 ### Choose any example code from the Docs here and adjust to the best fit.
 `
-https://react.semantic-ui.com/usage
-`
-
-`
-https://www.npmjs.com/package/react-alice-carousel
+[Matplotlib Docs](https://matplotlib.org/stable/users/explain/quick_start.html)
 `
