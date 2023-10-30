@@ -13,7 +13,7 @@
 ![image](https://github.com/tuskydev/matplotlibStarter/assets/52723004/a783099a-ef87-4114-81dc-d93f5aad93f5)
 
 
-### Image of a graph integrated with a function analyzing someone's retirement funds based on money put in and the rate at which it will increase 
+### Integrated graph with a function analyzing retirement funds based on money put in and the increase rate 
 ![image](https://github.com/tuskydev/matplotlibStarter/assets/52723004/5aa4d5f5-59bb-4264-a0f3-2f105d6c2c35)
 
 
@@ -24,7 +24,7 @@
 npm install matplotlib
 `
 
-### Add these lines to the App.js file:
+### Add these lines to the .py file:
 ```
 import pylab as plt
 
@@ -32,6 +32,6 @@ import pylab as plt
 ```
 
 ### Choose any example code from the Docs here and adjust to the best fit.
-`
+
 [Matplotlib Docs](https://matplotlib.org/stable/users/explain/quick_start.html)
-`
+
